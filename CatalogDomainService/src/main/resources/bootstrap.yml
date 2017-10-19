@@ -1,0 +1,8 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: CATALOG-DOMAIN-SERVICE
+logging:
+    level: 
+      org.springframework: INFO
