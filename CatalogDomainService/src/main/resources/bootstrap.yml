@@ -6,3 +6,6 @@ spring:
 logging:
     level: 
       org.springframework: INFO
+management:
+  security:
+    enabled: false

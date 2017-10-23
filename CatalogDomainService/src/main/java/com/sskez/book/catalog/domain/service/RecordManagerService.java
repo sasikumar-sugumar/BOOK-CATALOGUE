@@ -11,7 +11,9 @@ import com.sskez.book.catalog.domain.model.EntityRecord;
  */
 public interface RecordManagerService {
 	
-	public boolean createRecord(EntityRecord entityRecord);
+ EntityRecord createRecord(EntityRecord entityRecord);
+	
+	EntityRecord getEntityByISBN(String isbnCode);
 	
 
 }
